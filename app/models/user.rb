@@ -1,7 +1,8 @@
 class User < ActiveRecord::Base
-  has_many :tournaments
+  # has_many :tournaments
 
   attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessor :password, :salt
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
@@ -10,6 +11,8 @@ class User < ActiveRecord::Base
   validates :email, 	:presence		=> true,
 						:format			=> { :with => email_regex },
 						:uniqueness		=> { :case_sensitive => false }
+
+  # Automstcally create the virtual attribute 'password_confirmation'
   validates :password,	:presence		=> true,
 						:confirmation	=> true,
 						:length			=> { :within => 8..64 }
@@ -37,7 +40,7 @@ class User < ActiveRecord::Base
     def encrypt(string)
       secure_hash("#{salt}--#{string}")
     end
-	def amke_salt
+	def make_salt
       secure_hash("#{Time.now.utc}--#{password}")
 	end
 	def secure_hash(string)
