@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'sqlite3'
-# gem 'pg'
+gem 'pg'
 gem 'gravatar_image_tag', '1.0.0'
 
 # Bundle edge Rails instead:
