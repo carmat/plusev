@@ -9,6 +9,9 @@ development:
   encoding: utf8
   # database: db/development.sqlite3
   database: plusev_development
+  username: postgres
+  password: postgresspass
+  host: localhost
   pool: 5
   timeout: 5000
 
@@ -21,6 +24,9 @@ test: &TEST
   encoding: utf8
   # database: db/test.sqlite3
   database: plusev_test
+  username: postgres
+  password: postgresspass
+  host: localhost
   pool: 5
   timeout: 5000
 
@@ -30,5 +36,8 @@ production:
   encoding: utf8
   # database: db/production.sqlite3
   database: plusev_production
+  username: postgres
+  password: postgresspass
+  host: localhost
   pool: 5
   timeout: 5000
