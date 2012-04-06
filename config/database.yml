@@ -8,7 +8,7 @@ development:
   adapter: postgresql
   encoding: utf8
   # database: db/development.sqlite3
-  database: plusev_development
+  database: plusev
   username: postgres
   password: postgresspass
   host: localhost
@@ -23,7 +23,7 @@ test: &TEST
   adapter: postgresql
   encoding: utf8
   # database: db/test.sqlite3
-  database: plusev_test
+  database: plusev
   username: postgres
   password: postgresspass
   host: localhost
@@ -35,7 +35,7 @@ production:
   adapter: postgresql
   encoding: utf8
   # database: db/production.sqlite3
-  database: plusev_production
+  database: plusev
   username: postgres
   password: postgresspass
   host: localhost
