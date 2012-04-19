@@ -1,8 +1,8 @@
 class User < ActiveRecord::Base
   # has_many :tournaments
 
-  attr_accessible :name, :email, :password, :password_confirmation, :salt
   attr_accessor :password, :salt
+  attr_accessible :name, :email, :password, :password_confirmation, :salt
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 

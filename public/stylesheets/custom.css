@@ -44,6 +44,9 @@ td.main { width: 70%; padding: 1em; }
 td.sidebar { width: 30%; padding: 1em; vertical-align: top; background: #ffc; }
 .profile img.gravatar { border: 1px solid #999; margin-bottom: -15px; }
 
+ul.users { margin-top: 1em; }
+.users li { list-style: none; }
+
 div.field, div.actions { margin-bottom: 10px; }
 
 .field_with_errors { margin-top: 10px; padding: 2px; background-color: red; display: table; }
