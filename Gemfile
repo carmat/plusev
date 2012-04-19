@@ -3,19 +3,19 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.1'
 gem 'pg'
 gem 'gravatar_image_tag', '1.0.0'
-# gem 'will_paginate', '3.0.pre2'
+# gem 'will_paginate', '3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.9.0' # init 2.0.1'
   gem 'annotate', '2.4.0'
-  gem 'faker', '0.3.1'
+  gem 'faker', '1.0.1'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.9.0' # init 2.0.1'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.8.4'
   gem 'factory_girl_rails', '3.0.0'
