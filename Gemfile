@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.1'
 gem 'pg'
 gem 'gravatar_image_tag', '1.0.0'
-# gem 'will_paginate', '3.0.3'
+gem 'will_paginate', '3.0.3'
+# gem 'ruby-debug', '0.10.4'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

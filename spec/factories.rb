@@ -10,3 +10,6 @@ end
 Factory.sequence :email do |n|
   "person-#{n}@example.com"
 end
+
+
+### pg.398 - 10.3.4
