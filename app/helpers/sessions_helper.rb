@@ -1,21 +1,23 @@
 module SessionsHelper
   def sign_in(user)
-    user.remember_me!
+    user.user_from_remember_token!
     cookies[:remember_token] = { :value => user.remember_token,
                                  :expires => 20.years.from_now.utc }
     self.current_user = user
   end
   
-  # def current_user=(user) # SET current_user
-    # @current_user = user
-  # end
-  
   def current_user # GET current_user
-    @current_user ||= user_from_remember_token
+    #@current_user ||= user_from_remember_token
+    @current_user ||= User.find_by_id(session[:user_id])
   end
   
   def signed_in?
-    !self.current_user.nil?
+    self.current_user
+  end
+  
+  def current_user=(user) # SET current_user
+    @current_user = user
+	session[:user_id] = @current_user ? current_user.id : nil
   end
   
   def sign_out
