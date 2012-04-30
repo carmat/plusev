@@ -1,19 +1,4 @@
 ---
 rails.png: rails-782b548cc1ba7f898cdad2d9eb8420d2.png
 application.js: application-206990b48fe8d5d5e2e128b0f66d49f8.js
-pages.js: pages-95f0ace38133acd0b2226f2c4181b3f3.js
-sessions.js: sessions-95f0ace38133acd0b2226f2c4181b3f3.js
-tournaments.js: tournaments-95f0ace38133acd0b2226f2c4181b3f3.js
-users.js: users-95f0ace38133acd0b2226f2c4181b3f3.js
 application.css: application-8dbcf3dca0faa4167e3ac9b85b04d284.css
-pages.css: pages-95bd4fe1de99c1cd91ec8e6f348a44bd.css
-scaffolds.css: scaffolds-8dbcf3dca0faa4167e3ac9b85b04d284.css
-sessions.css: sessions-95bd4fe1de99c1cd91ec8e6f348a44bd.css
-tournaments.css: tournaments-95bd4fe1de99c1cd91ec8e6f348a44bd.css
-users.css: users-95bd4fe1de99c1cd91ec8e6f348a44bd.css
-jquery-ui.js: jquery-ui-b8c4c8fa5e5d95acf3520327139db5fd.js
-jquery-ui.min.js: jquery-ui.min-5d001a91bcf030a10c458feda96a6217.js
-jquery.js: jquery-304795b752e84a39f3d0bced0abc6cfe.js
-jquery.min.js: jquery.min-a03e53743fcd9741b28734d9cc17a1a6.js
-jquery_ujs.js: jquery_ujs-c083290e87c0016c971d1aa12f6aed7c.js
-coffee-script.js: coffee-script-9e47d4598c0fb8cccbf31f20c8a922f5.js

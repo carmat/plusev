@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Plusev::Application.config.secret_token = 'b8f5471fdfb5f2a8e89919ffbd4102e426b90b9fbd27e413043a5c357fc41189c892eb396f6b9ce182a013a0769183d0d09b925e8ab6a4d80fe54fb100c2a3be'
+Plusev::Application.config.secret_token = '9d7767a8639098204023dfb9a9cd3b31313d428ad5afb00bf71962a27be1dbd018b4e37db8618a71dad1d2f8c21b455312e96835aa7ddc431e1860e799a6d295'

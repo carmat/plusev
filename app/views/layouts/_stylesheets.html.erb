@@ -2,11 +2,6 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<%= stylesheet_link_tag '../stylesheets/custom' -%>
-<%= stylesheet_link_tag '../stylesheets/blueprint/screen.css' -%>
-<%= stylesheet_link_tag '../stylesheets/blueprint/print.css', :media => print -%>
-
-<!--[if lt IE 8]>
-<%= stylesheet_link_tag '../stylesheets/blueprint/print.css' -%>
-<link rel="stylesheet" href="stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
-<![endif]-->
+<%= stylesheet_link_tag 'stylesheets/blueprint/screen.css' -%>
+<%= stylesheet_link_tag 'stylesheets/blueprint/print.css', :media => print -%>
+<%= stylesheet_link_tag 'stylesheets/custom' -%>

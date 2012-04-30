@@ -6,8 +6,6 @@ Plusev::Application.routes.draw do
   resources :sessions, :only => [:new, :create, :destroy]
 # resources :tournaments
 
-  get "users/new"
-
 # Route Dynamic Pages
   match '/signup',		:to => 'users#new'
   match '/signin',		:to => 'sessions#new'
